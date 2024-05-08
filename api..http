@@ -1,0 +1,7 @@
+@host = http://192.168.1.15:3333
+
+###
+POST {{host}}/auth/local/signup
+Content-Type: application/json; charset=utf-8
+
+{}
